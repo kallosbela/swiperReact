@@ -7,11 +7,11 @@ const path = require('path')
 app.use(express.json())
 app.use(fileupload())
 
-app.get('/', (req, res) => {
-  res.sendFile(path.join(`${__dirname}/../frontend/index.html`))
-})
+// app.get('/', (req, res) => {
+//   res.sendFile(path.join(`${__dirname}/../frontend/index.html`))
+// })
 
-app.use('/', express.static(`${__dirname}/../frontend`))
+app.use('/', express.static(path.join(`${__dirname}/../frontend/src/`)))
 
 app.get('/images', (req, res) => {
   const data = fs.readFileSync(`${__dirname}/data.json`)
