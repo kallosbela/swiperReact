@@ -1,0 +1,20 @@
+[
+  {
+    "url": "./img/duplo.jpg",
+    "title": "Beszélgetés",
+    "uploadDate": "2022-10-25T11:48:42.770Z",
+    "photographer": "Béla"
+  },
+  {
+    "url": "./img/mikulas.jpg",
+    "title": "Mikulás túra",
+    "uploadDate": "2022-10-25T11:48:42.770Z",
+    "photographer": "Béla"
+  },
+  {
+    "url": "./img/nap.jpg",
+    "title": "Szép emlékek",
+    "uploadDate": "2022-10-25T11:48:42.770Z",
+    "photographer": "Anita"
+  }
+]
