@@ -1,20 +1,68 @@
 [
   {
-    "url": "./img/duplo.jpg",
+    "url": "http://localhost:3000/duplo.jpg",
     "title": "Beszélgetés",
     "uploadDate": "2022-10-25T11:48:42.770Z",
     "photographer": "Béla"
   },
   {
-    "url": "./img/mikulas.jpg",
+    "url": "http://localhost:3000/mikulas.jpg",
     "title": "Mikulás túra",
     "uploadDate": "2022-10-25T11:48:42.770Z",
     "photographer": "Béla"
   },
   {
-    "url": "./img/nap.jpg",
+    "url": "http://localhost:3000/nap.jpg",
     "title": "Szép emlékek",
     "uploadDate": "2022-10-25T11:48:42.770Z",
     "photographer": "Anita"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-1.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-2.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-3.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-4.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-5.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-6.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-7.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
+  },
+  {
+    "url": "https://swiperjs.com/demos/images/nature-8.jpg",
+    "title": "Naplemente",
+    "uploadDate": "2022-10-27T11:48:42.770Z",
+    "photographer": "Teréz"
   }
 ]

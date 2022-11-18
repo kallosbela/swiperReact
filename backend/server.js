@@ -3,7 +3,9 @@ const app = express()
 const fileupload = require('express-fileupload')
 const fs = require('fs')
 const path = require('path')
+const cors = require('cors')
 
+app.use(cors())
 app.use(express.json())
 app.use(fileupload())
 
@@ -11,14 +13,14 @@ app.use(fileupload())
 //   res.sendFile(path.join(`${__dirname}/../frontend/index.html`))
 // })
 
-app.use('/', express.static(path.join(`${__dirname}/../frontend/src/`)))
-
 app.get('/images', (req, res) => {
   const data = fs.readFileSync(`${__dirname}/data.json`)
   const images = JSON.parse(data)
   res.json(images)
 })
 
+app.use('/', express.static(path.join(`${__dirname}/img`)))
+console.log(path.join(`${__dirname}/`));
 
 app.post("/upload", (req, res) => {
 
